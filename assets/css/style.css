@@ -1,0 +1,78 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  line-height: normal;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 20px;
+  margin-left: 1%;
+  color: #404040;
+}
+
+h1 {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2 {
+  color: #c69214;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #3399ff;
+}
+
+a:hover {
+  color: #3366ff;
+}
+
+@media screen and (min-width: 675px) {
+  #wrapper {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+
+#title {
+  font-size: 1.2em;
+  text-transform: lowercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+#tagline {
+  color: #006a96;
+  font-size: 0.6em;
+  font-weight: 700;
+  margin: -5px auto 10px;
+  text-align: center;
+}
+
+hr#divider {
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+  border: none;
+  height: 2px;
+  color: #808080;
+  background-color: #808080;
+}
+
+.post-title {
+  font-weight: 700;
+}
+
+.post > time {
+  font-weight: 600;
+  color: #808080;
+}
