@@ -97,3 +97,20 @@ code {
 pre {
   line-height: 1.75em;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 14px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 674px) {
+  th, td {
+    padding: 10px 5px;
+  }
+}
