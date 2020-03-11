@@ -113,4 +113,12 @@ th, td {
   th, td {
     padding: 10px 5px;
   }
+  .katex-display {
+    font-size: 90%;
+  }
+}
+
+pre {
+  overflow: auto;
+  overflow-y: hidden;
 }
